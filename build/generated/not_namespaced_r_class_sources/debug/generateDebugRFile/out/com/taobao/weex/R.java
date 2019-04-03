@@ -9,9 +9,14 @@ package com.taobao.weex;
 public final class R {
     private R() {}
 
+    public static final class bool {
+        private bool() {}
+
+        public static int weex_is_right_to_left = 0x7f05000a;
+    }
     public static final class drawable {
         private drawable() {}
 
-        public static int weex_error = 0x7f0900be;
+        public static int weex_error = 0x7f0900c7;
     }
 }

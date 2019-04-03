@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package android.support.compat;
+package android.support.transition;
 
 public final class R {
     private R() {}
@@ -87,6 +87,7 @@ public final class R {
         public static int blocking = 0x7f0c0043;
         public static int chronometer = 0x7f0c005a;
         public static int forever = 0x7f0c0093;
+        public static int ghost_view = 0x7f0c009b;
         public static int icon = 0x7f0c00ab;
         public static int icon_group = 0x7f0c00ac;
         public static int info = 0x7f0c00b2;
@@ -97,13 +98,22 @@ public final class R {
         public static int notification_background = 0x7f0c00fe;
         public static int notification_main_column = 0x7f0c00ff;
         public static int notification_main_column_container = 0x7f0c0100;
+        public static int parent_matrix = 0x7f0c0110;
         public static int right_icon = 0x7f0c0122;
         public static int right_side = 0x7f0c0124;
+        public static int save_image_matrix = 0x7f0c0133;
+        public static int save_non_transition_alpha = 0x7f0c0134;
+        public static int save_scale_type = 0x7f0c0135;
         public static int tag_transition_group = 0x7f0c016c;
         public static int text = 0x7f0c016d;
         public static int text2 = 0x7f0c016e;
         public static int time = 0x7f0c017d;
         public static int title = 0x7f0c0180;
+        public static int transition_current_scene = 0x7f0c018c;
+        public static int transition_layout_save = 0x7f0c018d;
+        public static int transition_position = 0x7f0c018e;
+        public static int transition_scene_layoutid_cache = 0x7f0c018f;
+        public static int transition_transform = 0x7f0c0190;
     }
     public static final class integer {
         private integer() {}
